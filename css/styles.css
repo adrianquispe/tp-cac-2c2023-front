@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body > *{
+    width: 100%;
+}
+header{
+    background-color: #353a40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 5%;
+    color: white;
+}
+
+.nav_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+footer{
+    background-color: #1d5271;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav_pie{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.formulario{
+    width: 50%;
+    align-self: center;
+}
+
+#section1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.section1_box{
+    z-index: 1;
+    color: white;
+    position: absolute;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    background-color: #3b3b47;
+}
+#section3 > *{
+    width: 50%;
+}
+
+.sect3_text{
+    padding: 1rem;
+    font-size: 0.75rem;
+}
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.sect4_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sect4_box>p{
+    margin-bottom: 0px;
+}
+
+.boxsize{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logoimg{
+    height: 3rem;
+    width: auto;
+}
+
+.logobox{
+    display: flex;
+}
+
+#carrusel{
+    width: auto;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+}
+
+.carrusel_img{
+    opacity: 50%;
+}
